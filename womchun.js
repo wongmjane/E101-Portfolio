@@ -13,7 +13,7 @@
 
 	var body = document.getElementsByTagName("body")[0];
 
-	var resourceBaseURL = "http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/";
+	var resourceBaseURL = "https://raw.github.com/womc/E101-Portfolio/master/";
 
 	function getResourceURL(fileName) {
 		return resourceBaseURL + fileName;
