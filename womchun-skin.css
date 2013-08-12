@@ -1,4 +1,276 @@
-* {
-	transition:all .5s ease-in-out;
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);
+
+.italic {
+	font-style: italic;
 }
-@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700);.italic{font-style:italic}p{-webkit-font-smoothing:subpixel-antialiased}body{font-family:'Source Sans Pro',sans-serif;-webkit-font-smoothing:antialiased;font-weight:normal;padding:0;margin:0;width:100%;height:100%;background-color:rgb(50,50,50)}#container{height:100%;background-color: rgb(38,38,38)}header{background-size:cover;background-position:center;background-repeat:no-repeat;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-1.jpg);height:600px;width:inherit;text-align:center;box-shadow:0 7px 15px rgba(0,0,0,0.3)}#headerContent{display:inline-block;margin:0 auto;margin-top:170px;font-size:20px;color:white;text-shadow:0 2px 2px rgba(0,0,0,0.5);font-size:36px;line-height:1em}h1{font-size:48px;font-weight:600}section#lifeLike{width:100%;height:1600px;background-size:cover;background-position:center;background-repeat:no-repeat;background-attachment:fixed;transition:background-image .5s ease-in-out;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-pixel.png)}section#lifeLike.flower{background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-flower.jpg)}section#lifeLike.flower.hiking{background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-hiking.jpg)}section#lifeLike.flower.hiking.traveller{background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-traveller.jpg)}section#lifeLike.flower.hiking.traveller.coffee{background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-coffee.jpg)}#lifeLikeContent{font-size:28px;color:white}#lifeLikeBeginning{position:absolute;margin:0;font-weight:700;right:65%;padding-top:150px;display:inline-block;font-size:36px;transition:all .5s ease-in-out}#lifeLikeBeginning.fixed{position:fixed;top:0}#lifeLikeBeginning.vanish{opacity:0}#lifeLikeParagraph{position:absolute;left:42%;display:inline-block;width:50%;margin:0;margin-left:10px;padding-top:150px;list-style-type:none}#lifeLikeParagraph li{padding-bottom:1em}#lifeLikeParagraph li p{display:inline;font-weight:300;-webkit-font-smoothing:antialiased}.metaphorName{text-transform:uppercase;font-weight:600}#whatDone{margin:0;text-transform:uppercase;font-weight:700;font-size:48px;text-align:center;line-height:1.5em;color:#524114;background-color:#e6d4a3;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-paper.jpg);box-shadow:0 -7px 15px rgba(0,0,0,0.3)}#essaysListItems{color:white;font-size:24px;list-style-type:none;padding:0;margin:0;text-shadow:1px 1px 2px rgba(0,0,0,1)}.essayListItem{background-size:cover;background-position:center;background-repeat:no-repeat;min-height:100px;width:auto;padding:20px;box-shadow:0 -7px 15px rgba(0,0,0,0.3);background-attachment:fixed}.essayListItem.diagnostic{background-color:green;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-diagnostic.jpg)}.essayListItem.selfintro{background-color:orange;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-selfintro.jpg)}.essayListItem.fun{background-color:blue;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-fun.jpg)}.essayListItem.fighter{background-color:maroon;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-fighter.jpg)}.essayListItem.superpower{background-color:yellow;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-superpower.jpg)}.essayListItem.asians{background-color:#8b4513;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-asians.jpg)}.essayListItemTitle{font-weight:600;line-height:2em;padding:0;margin:0;text-decoration:none}.bestBlock{text-transform:uppercase;display:inline;margin-left:.5em;background-color:red;padding:0 10px;border-radius:8px;text-shadow:none;font-weight:700}.essayListItemDescriptionWrapper{list-style-type:none;padding:0;margin:0}.essayListViewAll{text-align:center;font-size:48px;font-weight:600;line-height:1.5em;background-color:green;background-size:cover;background-position:center;background-repeat:no-repeat;background-attachment:fixed;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-grass.jpg);box-shadow:0 7px 15px rgba(0,0,0,0.3)}.essayListViewAll a{display:block;height:100%;width:100%;text-decoration:none;color:white;transition:all .5s ease-in-out}.essayListViewAll a:hover{color:yellow}#fbQuote{background-color:white;background-image:url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/fb-logo.png);background-repeat:no-repeat;background-position:50% 10px;background-size:100px 100px;padding-top:120px;font-size:36px;text-align:center;width:100%}#fbQuote a{text-decoration:none;color:#141823;width:70%}#fbQuote p{display:inline}#fbQuote p,.fbQuoteCite{font-size:28px}footer{text-align:center;color:#c8c8c8}
+
+p {
+	-webkit-font-smoothing: subpixel-antialiased;
+}
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+    background-color: rgb(50, 50, 50);
+}
+
+#container {
+	height: 100%;
+}
+
+header {
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-1.jpg);
+	height: 600px;
+	width: inherit;
+	text-align: center;
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.3);
+}
+
+#headerContent {
+	display: inline-block;
+	margin: 0 auto;
+	margin-top: 170px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 2px 2px rgba(0,0,0,0.5);
+	font-size: 36px;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 600;
+}
+
+section#lifeLike {
+	width: 100%;
+	height: 1600px;
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    transition: background-image 0.5s ease-in-out;
+
+    background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-pixel.png);
+}
+
+section#lifeLike.flower {
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-flower.jpg);
+}
+
+section#lifeLike.flower.hiking {
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-hiking.jpg);
+}
+
+section#lifeLike.flower.hiking.traveller {
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-traveller.jpg);
+}
+
+section#lifeLike.flower.hiking.traveller.coffee {
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-coffee.jpg);
+}
+
+#lifeLikeContent {
+	font-size: 28px;
+	color: white;
+}
+
+#lifeLikeBeginning {
+	position: absolute;
+	margin: 0;
+	font-weight: 700;
+	right: 65%;
+	padding-top: 150px;
+	display: inline-block;
+	font-size: 36px;
+	transition: all 0.5s ease-in-out;
+}
+
+#lifeLikeBeginning.fixed {
+	position: fixed;
+	top: 0;
+}
+
+#lifeLikeBeginning.vanish {
+	opacity: 0;
+}
+
+#lifeLikeParagraph {
+	position: absolute;
+	left: 42%;
+	display: inline-block;
+	width: 50%;
+	margin: 0;
+	margin-left: 10px;
+	padding-top: 150px;
+	list-style-type: none;
+}
+
+#lifeLikeParagraph li {
+	padding-bottom: 1em;
+}
+
+#lifeLikeParagraph li p {
+	display: inline;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+}
+
+.metaphorName {
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+#whatDone {
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 48px;
+	text-align: center;
+	line-height: 1.5em;
+	color: rgb(82, 65, 20);
+	background-color: rgb(230, 212, 163);
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-paper.jpg);
+	box-shadow: 0px -7px 15px rgba(0,0,0,0.3);
+}
+
+#essaysListItems {
+	color: white;
+	font-size: 24px;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	text-shadow: 1px 1px 2px rgba(0,0,0,1);
+}
+
+.essayListItem {
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100px;
+    width: auto;
+    padding: 20px;
+    box-shadow: 0px -7px 15px rgba(0,0,0,0.3);
+    background-attachment: fixed;
+}
+
+.essayListItem.diagnostic {
+	background-color: green;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-diagnostic.jpg);
+}
+
+.essayListItem.selfintro {
+	background-color: orange;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-selfintro.jpg);
+}
+
+.essayListItem.fun {
+	background-color: blue;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-fun.jpg);
+}
+
+.essayListItem.fighter {
+	background-color: maroon;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-fighter.jpg);
+}
+
+.essayListItem.superpower {
+	background-color: yellow;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-superpower.jpg);
+}
+
+.essayListItem.asians {
+	background-color: #8B4513;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-asians.jpg);
+}
+
+.essayListItemTitle {
+	font-weight: 600;
+	line-height: 2em;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+.bestBlock {
+	text-transform: uppercase;
+	display: inline;
+	margin-left: 0.5em;
+	background-color: red;
+	padding: 0 10px;
+	border-radius: 8px;
+	text-shadow: none;
+	font-weight: 700;
+}
+
+.essayListItemDescriptionWrapper {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.essayListViewAll {
+	text-align: center;
+	font-size: 48px;
+	font-weight: 600;
+	line-height: 1.5em;
+	background-color: green;
+	background-size: cover;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-grass.jpg);
+	box-shadow: 0px 7px 15px rgba(0,0,0,0.3);
+}
+
+.essayListViewAll a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	color: white;
+	transition: all 0.5s ease-in-out;
+}
+
+.essayListViewAll a:hover {
+	color: yellow;
+}
+
+#fbQuote {
+	background-color: white;
+	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/fb-logo.png);
+	background-repeat:no-repeat;
+	background-position: 50% 10px;
+	background-size: 100px 100px;
+	padding-top: 120px;
+	font-size: 36px;
+	text-align: center;
+	width: 100%;
+}
+
+#fbQuote a {
+	text-decoration: none;
+	color: #141823;
+	width: 70%;
+}
+
+#fbQuote p {
+	display: inline;
+}
+
+#fbQuote p, .fbQuoteCite {
+	font-size: 28px;
+}
+
+footer {
+	text-align: center;
+	color: rgb(200, 200, 200);
+}
