@@ -4,7 +4,7 @@
 
 	var body = document.getElementsByTagName("body")[0];
 
-	var resourceBaseURL = "http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/";
+	var resourceBaseURL = "/";
 
 	function getResourceURL(fileName) {
 		return resourceBaseURL + fileName;
@@ -97,7 +97,7 @@
 	try {
 		document.getElementsByTagName("style")[0].innerHTML="";
 	} catch (e) {
-		
+
 	}
 
 	body.appendChild((function(style) {
@@ -114,7 +114,7 @@
 
 	//HEADER SECTION START
 	var header = document.createElement("header");
-	
+
 	var headerContent = document.createElement("div");
 	headerContent.id = "headerContent";
 
@@ -151,7 +151,7 @@
 
 	lifeLike.appendChild((function(lifeLikeContent) {
 		lifeLikeContent.id = "lifeLikeContent";
-		
+
 		lifeLikeContent.appendChild((function(beginning) {
 			jQuery(window).scroll(function() {
 				if(jQuery(beginning).offset().top > jQuery("#whatDone").offset().top - jQuery("#whatDone").height() * 2) {
@@ -165,7 +165,7 @@
 				if(jQuery(beginning).offset().top <= jQuery("#lifeLikeParagraph").offset().top) {
 					jQuery(beginning).removeClass("fixed");
 				}
-				
+
 			});
 			beginning.id = "lifeLikeBeginning";
 			beginning.innerHTML = "Life is like"

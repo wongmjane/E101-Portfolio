@@ -27,7 +27,7 @@ header {
 	background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-1.jpg);
+	background-image: url(background-1.jpg);
 	height: 600px;
 	width: inherit;
 	text-align: center;
@@ -59,23 +59,23 @@ section#lifeLike {
     background-attachment: fixed;
     transition: background-image 0.5s ease-in-out;
 
-    background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-pixel.png);
+    background-image: url(background-pixel.png);
 }
 
 section#lifeLike.flower {
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-flower.jpg);
+	background-image: url(background-flower.jpg);
 }
 
 section#lifeLike.flower.hiking {
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-hiking.jpg);
+	background-image: url(background-hiking.jpg);
 }
 
 section#lifeLike.flower.hiking.traveller {
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-traveller.jpg);
+	background-image: url(background-traveller.jpg);
 }
 
 section#lifeLike.flower.hiking.traveller.coffee {
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-coffee.jpg);
+	background-image: url(background-coffee.jpg);
 }
 
 #lifeLikeContent {
@@ -138,7 +138,7 @@ section#lifeLike.flower.hiking.traveller.coffee {
 	line-height: 1.5em;
 	color: rgb(82, 65, 20);
 	background-color: rgb(230, 212, 163);
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-paper.jpg);
+	background-image: url(background-paper.jpg);
 	box-shadow: 0px -7px 15px rgba(0,0,0,0.3);
 }
 
@@ -164,32 +164,32 @@ section#lifeLike.flower.hiking.traveller.coffee {
 
 .essayListItem.diagnostic {
 	background-color: green;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-diagnostic.jpg);
+	background-image: url(background-diagnostic.jpg);
 }
 
 .essayListItem.selfintro {
 	background-color: orange;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-selfintro.jpg);
+	background-image: url(background-selfintro.jpg);
 }
 
 .essayListItem.fun {
 	background-color: blue;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-fun.jpg);
+	background-image: url(background-fun.jpg);
 }
 
 .essayListItem.fighter {
 	background-color: maroon;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-fighter.jpg);
+	background-image: url(background-fighter.jpg);
 }
 
 .essayListItem.superpower {
 	background-color: yellow;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-superpower.jpg);
+	background-image: url(background-superpower.jpg);
 }
 
 .essayListItem.asians {
 	background-color: #8B4513;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-asians.jpg);
+	background-image: url(background-asians.jpg);
 }
 
 .essayListItemTitle {
@@ -227,7 +227,7 @@ section#lifeLike.flower.hiking.traveller.coffee {
 	background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/background-grass.jpg);
+	background-image: url(background-grass.jpg);
 	box-shadow: 0px 7px 15px rgba(0,0,0,0.3);
 }
 
@@ -246,7 +246,7 @@ section#lifeLike.flower.hiking.traveller.coffee {
 
 #fbQuote {
 	background-color: white;
-	background-image: url(http://dl.dropboxusercontent.com/u/48372564/E101-Protfolio/fb-logo.png);
+	background-image: url(fb-logo.png);
 	background-repeat:no-repeat;
 	background-position: 50% 10px;
 	background-size: 100px 100px;
