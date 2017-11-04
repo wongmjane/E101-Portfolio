@@ -12,10 +12,10 @@
 
 	var pageMeta = {
 		createdYear: 2013,
-		authorNickname: "womchun",
-		authorNicknameIPA: "'wɔmtʃun",
-		authorNicknameDescription: "a guy named Manchun Wong who has just finished his Summer Writing Class",
-		authorFullname: "Manchun Wong",
+		authorNickname: "wongmjane",
+		authorNicknameIPA: "'wongɛmʤeɪn",
+		authorNicknameDescription: "a person named Jane Manchun Wong who has just finished his Summer Writing Class",
+		authorFullname: "Jane Manchun Wong",
 		stylesheetFilename: "womchun-skin.css"
 	};
 
