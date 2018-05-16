@@ -14,7 +14,7 @@
 		createdYear: 2013,
 		authorNickname: "wongmjane",
 		authorNicknameIPA: "'wongɛmʤeɪn",
-		authorNicknameDescription: "a person named Jane Manchun Wong who has just finished his Summer Writing Class",
+		authorNicknameDescription: "a person named Jane Manchun Wong who has just finished her Summer Writing Class",
 		authorFullname: "Jane Manchun Wong",
 		stylesheetFilename: "womchun-skin.css"
 	};
